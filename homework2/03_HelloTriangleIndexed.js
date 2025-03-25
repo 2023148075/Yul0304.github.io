@@ -6,8 +6,8 @@
     for the triangle
 ---------------------------------------------------------------------------*/
 
-import { resizeAspectRatio, setupText } from "../util/util.js";
-import { Shader, readShaderFile } from "../util/shader.js";
+import { resizeAspectRatio, setupText } from "util/util.js";
+import { Shader, readShaderFile } from "util/shader.js";
 let shader = null;
 let vao = null;
 // Get the canvas and WebGL 2 context
